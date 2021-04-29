@@ -1,0 +1,14 @@
+{
+  "scripts": {
+    "hashing": "node dist/01_hashing/main",
+    "bloom-filters": "node dist/02_bloom-filters/main",
+    "count-min-sketch": "node dist/03_count-min-sketch/main"
+  },
+  "devDependencies": {
+    "@types/node": "^14.14.41"
+  },
+  "dependencies": {
+    "bloom-filters": "^1.3.2",
+    "csv-parser": "^3.0.0"
+  }
+}
